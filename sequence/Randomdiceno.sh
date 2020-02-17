@@ -1,0 +1,7 @@
+#!/bin/bash -x
+
+#INITIALIZING THE VARIABLE OF A RANDOM NUMBER OF A DICE
+randomNumber=$(( RANDOM%6+1 ))
+
+#PRINT THE VALUE OF RANDOM NUMBER OF A DICE
+echo $randomNumber
